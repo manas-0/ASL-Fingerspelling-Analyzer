@@ -7,7 +7,7 @@ A real-time American Sign Language (ASL) fingerspelling recognition system built
 
 ---
 
-## ✨ Features
+##  Features
 
 - **Real-time recognition** of ASL fingerspelling (28-class alphabet) directly from a live camera feed
 - **100% on-device** — hand tracking and inference both run locally, no backend or network dependency
@@ -17,7 +17,7 @@ A real-time American Sign Language (ASL) fingerspelling recognition system built
 
 ---
 
-## 📊 Model Performance
+##  Model Performance
 
 | Metric | Value |
 |---|---|
@@ -30,7 +30,7 @@ The classifier is a Keras MLP trained on normalized MediaPipe hand landmark coor
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 Camera Feed (CameraX)
@@ -53,7 +53,7 @@ Predicted Letter (UI)
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - Kotlin + Jetpack Compose
 - CameraX for camera capture
@@ -62,7 +62,7 @@ Predicted Letter (UI)
 
 ---
 
-## 📥 Getting Started
+##  Getting Started
 
 ### Download (fastest way to try it)
 Grab the signed APK from **[Releases → v1.0.0](https://github.com/manas-0/ASL-Fingerspelling-Analyzer/releases/tag/v1.0.0)** and sideload it directly onto a device.
@@ -82,7 +82,7 @@ cd ASL-Fingerspelling-Analyzer
 
 ---
 
-## 🗺️ Roadmap
+##  Roadmap
 
 - [ ] Expand beyond fingerspelling to full ASL word/phrase recognition
 - [ ] Add on-device model update pipeline
@@ -91,7 +91,7 @@ cd ASL-Fingerspelling-Analyzer
 
 ---
 
-## 📄 License
+##  License
 
 
 This project is open for personal and educational use. Feel free to explore the code.
